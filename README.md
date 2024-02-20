@@ -78,12 +78,12 @@ what is the time complexity of this algorithm and why? It is O(n^2) because n is
 
 Write a function that prints "Hello World" n times recursively. 
 
-void helloWorld(int n) { 
-    if (n > 0) { 
-        System.out.println("Hello World"); 
+void helloWorld(int n) {
+    if (n > 0) {
+        System.out.println("Hello World");
         helloWorld(n - 1);
-    }  
-} 
+    }
+ }
 
 Write a function that returns the sum of all numbers between n1 and n2 that are multiples of 7 using recursion.
 
